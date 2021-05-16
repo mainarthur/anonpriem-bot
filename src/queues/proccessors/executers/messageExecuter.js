@@ -18,7 +18,7 @@ const messageExecuter = async ({ user, message }) => {
 
   const postsCount = posts.get(currentHour) ?? 0
 
-  if (postsCount > 1000) {
+  if (postsCount > 15) {
     return bot.sendMessage(chatId, t18g(locale)`too_many_posts`)
   }
 
