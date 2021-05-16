@@ -1,6 +1,6 @@
-# Randopic Bot
+# @anonpriembot
 
-[Telegram Bot](https://t.me/RandopicBot) that sends random pictures!
+[Telegram Bot](https://t.me/anonpriembot) that sends anonymous messages to the channel!
 
 # Requirements
 
@@ -12,8 +12,8 @@
 Download source code and dependencies:
 
 ```bash
-git clone git@github.com:mainarthur/randopic-bot.git
-cd randopic-bot
+git clone git@github.com:mainarthur/anonpriembot-bot.git
+cd anonpriembot-bot
 npm i
 ```
 

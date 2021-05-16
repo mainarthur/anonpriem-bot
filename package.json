@@ -1,7 +1,7 @@
 {
-  "name": "randopic-bot",
+  "name": "anonpriembot-bot",
   "version": "1.0.0",
-  "description": "Telegram Bot that generates random pictures",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mainarthur/randopic-bot.git"
+    "url": "git+https://github.com/mainarthur/anonpriem-bot.git"
   },
   "author": "MasterArthur",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mainarthur/randopic-bot/issues"
+    "url": "https://github.com/mainarthur/anonpriem-bot/issues"
   },
-  "homepage": "https://github.com/mainarthur/randopic-bot#readme",
+  "homepage": "https://github.com/mainarthur/anonpriem-bot#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "bull": "^3.22.5",
