@@ -1,0 +1,22 @@
+{
+  "TELEGRAM_BOT_TOKEN": "",
+  "BOT_NAME": "anonpriem",
+  "DEFAULT_LOCALE": "ru",
+  "RATE_LIMITER": {
+    "message": 1
+  },
+  "ALLOWED_UPDATES": ["message"],
+  "BULL_OPTIONS": {
+    "defaultJobOptions": {
+      "removeOnComplete": true,
+      "attempts": 2
+    },
+    "limiter": {
+      "duration": 1000,
+      "max": 30
+    }
+  },
+  "CHANNEL_ID": -1000000000,
+  "MONGO": "",
+  "ADMIN_IDS": []
+}
