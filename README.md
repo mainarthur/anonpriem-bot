@@ -12,8 +12,8 @@
 Download source code and dependencies:
 
 ```bash
-git clone git@github.com:mainarthur/anonpriembot-bot.git
-cd anonpriembot-bot
+git clone git@github.com:mainarthur/anonpriem-bot.git
+cd anonpriem-bot
 npm i
 ```
 
