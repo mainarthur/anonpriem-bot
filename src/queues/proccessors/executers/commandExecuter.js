@@ -27,7 +27,7 @@ const commandExecuter = async ({ command, message }) => {
    */
   const commandHandler = commandsRoutes[commandName]
 
-  if (commandHandler.admin && ADMIN_IDS.includes(userId)) return
+  if (commandHandler.admin && !ADMIN_IDS.includes(userId)) return
 
   if (commandHandler.action) {
     await bot.sendChatAction(chatId, commandHandler.action)
